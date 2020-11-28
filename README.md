@@ -30,6 +30,7 @@ before you running this project you should configure your <b> daddyscoffee.sql <
     3.Enter the url: http://localhost/phpmyadmin/
     4.Create new database named-> daddyscoffee
     5.Then Import daddyscoffee.sql file it is located on ****
+    6.Location:https://github.com/Chamithfernando/-DaddysCoffeeApplication/tree/master/src/main/resources/daddyscoffee.sql
 
 3).<b>how to run the application</b>
 
@@ -60,3 +61,29 @@ before you running this project you should configure your <b> daddyscoffee.sql <
 
 
       PostRequest   http://localhost:8080/order/add  -->  for placing new Order in Coffee shop
+      
+3).Sample test
+
+* GetRequest   http://localhost:8080/products/all  --> [
+                                                            {
+                                                                "productId": 1,
+                                                                "productName": "Black Coffee",
+                                                                "productDiscription": "imply put, black coffee is a combination of water and coffee without any milk"
+                                                            },
+                                                            {
+                                                                "productId": 2,
+                                                                "productName": "Drip Coffee",
+                                                                "productDiscription": "As the name suggests, drip coffee involves dripping boiling water over ground coffee."
+                                                            }
+
+                                                         ]
+                                   
+
+* PostRequest   http://localhost:8080/order/add  -->  {
+                                                        "orderId": 9,
+                                                        "orderQuantity": 120,
+                                                        "orderDate": "2020-12-27T07:00:00.000+00:00"
+                                                    }
+                                                    
+                                                    status : 201Created
+
