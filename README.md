@@ -12,7 +12,7 @@
 
 2).<b> simple DB Structure to store the product details</b>
 
-| Tables names        | Data types    | default value |
+| Variables           | Data types    | default value |
 | ------------------- |:-------------:| -------------:|
 | product_id          | int(11)       | notnull       |
 | product_name        | varchar(255)  | notnull       |
