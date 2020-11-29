@@ -1,4 +1,4 @@
-# -DaddysCoffeeApplication for Small Coffee shop 
+# Daddy'sCoffeeApplication for Small Coffee shop 
 
 <h3>Question 01 - REST API Design</h3>
 
@@ -17,6 +17,8 @@
 | product_id          | int(11)       | notnull       |
 | product_name        | varchar(255)  | notnull       |
 | product_discription | varchar(255)  | null          |
+
+    getting coffee details from https://www.homegrounds.co/types-of-coffee/
 
 <b> db initialization </b>
 
